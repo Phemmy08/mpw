@@ -5,13 +5,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f9;
+    background-color: wheat;
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #050A44;
+    color: wheat;
     text-align: center;
     padding: 2rem 0;
     border-radius: 0 0 15px 15px;
@@ -40,7 +40,7 @@ header p {
 
 .section h2 {
     font-size: 2rem;
-    color: #4CAF50;
+    color: #050A44;
     margin-bottom: 20px;
 }
 
@@ -79,13 +79,13 @@ header p {
     margin-top: 10px;
     text-decoration: none;
     color: white;
-    background-color: #4CAF50;
+    background-color: #050A44;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 .project-card a:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 .impacts {
@@ -100,7 +100,7 @@ header p {
 }
 
 .skills span {
-    background: #4CAF50;
+    background: #050A44;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -123,7 +123,7 @@ header p {
 .stat-item h3 {
     margin: 0;
     font-size: 2rem;
-    color: #4CAF50;
+    color:#050A44;
 }
 
 .stat-item p {
@@ -139,22 +139,23 @@ header p {
 .download a {
     text-decoration: none;
     color: white;
-    background-color: #4CAF50;
+    background-color: #050A44;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
 }
 
 .download a:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #050A44;
     color: white;
     margin-top: 20px;
+    font-size: 20px;
 }
 
 footer a {

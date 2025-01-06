@@ -9,8 +9,9 @@ body {
     font-family: "Itim", cursive;
     margin: 0;
     padding: 0;
+    margin-top: 300px;
     box-sizing: border-box;
-    background-color: #f4f4f9;
+    background-color: wheat;
     color: #333;
 }
 
@@ -19,10 +20,15 @@ h1 {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #050A44;
+    color: wheat;
     text-align: center;
     padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 0 0 15px 15px;
 }
 
 header h1 {
@@ -38,26 +44,28 @@ header p {
 .cta-buttons {
     margin-top: 20px;
 }
-
 .cta-buttons a {
     text-decoration: none;
     color: white;
-    background-color: #333;
+    background-color: red; /* Secondary color */
     padding: 10px 20px;
-    margin: 5px;
     border-radius: 5px;
+    margin: 5px;
     display: inline-block;
     font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .cta-buttons a:hover {
-    background-color: #555;
+    background-color: #0A21C0; 
+    transform: scale(1.1);
 }
 
 .intro {
     text-align: center;
     padding: 20px;
     line-height: 1.6;
+    font-size: 2rem;
 }
 
 .intro img {
@@ -65,7 +73,7 @@ header p {
     max-width: 400px;
     max-height: 400px;
     margin-top: 20px;
-    border: 5px solid  #4CAF50;
+    border: 5px solid  #050A44;
 }
 
 .skills {
@@ -74,14 +82,14 @@ header p {
     text-align: center;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0.2, 0.6);
     max-width: 800px;
 }
 
 .skills h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: #050A44;
 }
 
 .skills ul {
@@ -117,7 +125,7 @@ header p {
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
-    color: #4CAF50;
+    color: #050A44;
 }
 
 .featured-work .project {
@@ -125,7 +133,7 @@ header p {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0.2, 0.6);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -156,13 +164,15 @@ header p {
     margin-top: 10px;
     text-decoration: none;
     color: white;
-    background-color: #4CAF50;
+    background-color: #050A44;
     padding: 10px 15px;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 .featured-work .project a:hover {
-    background-color: #45a049;
+    translate: transformY(-5px);
+    background-color: #0A21C0;
 }
 
 
@@ -172,14 +182,14 @@ header p {
     padding: 40px 20px;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0.2, 0.6);
     max-width: 800px;
 }
 
 .connect h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: #050A44;
 }
 
 .connect p {
@@ -196,21 +206,21 @@ header p {
 }
 
 .social-icons a {
-    color: #4CAF50;
+    color: #050A44;
     font-size: 2rem;
     transition: color 0.3s, transform 0.3s;
 }
 
 .social-icons a:hover {
-    color: #45a049;
+    color: #0a21c0;
     transform: scale(1.2);
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    background-color: #050A44;
+    color: wheat;
     margin-top: 20px;
 }
 

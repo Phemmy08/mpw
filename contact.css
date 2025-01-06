@@ -16,8 +16,8 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #050A44;
+    color: wheat;
     text-align: center;
     padding: 2rem 0;
 }
@@ -41,12 +41,12 @@ header p {
 .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #050A44;
 }
 
 .contact p {
     font-size: 1.2rem;
-    color: #555;
+    color: #050A44;
     margin-bottom: 30px;
 }
 
@@ -69,7 +69,7 @@ header p {
 
 .contact-form label {
     font-size: 1rem;
-    color: #333;
+    color: #050A44;
 }
 
 .contact-form input,
@@ -83,8 +83,8 @@ header p {
 }
 
 .contact-form button {
-    background-color: #4CAF50;
-    color: white;
+    background-image: linear-gradient(to left, #050A44, burlywood);
+    color: wheat;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -94,7 +94,7 @@ header p {
 }
 
 .contact-form button:hover {
-    background-color: #45a049;
+    background-image: linear-gradient(to right, #050A44, burlywood);
 }
 
 .contact-info {
@@ -102,11 +102,11 @@ header p {
     max-width: 400px;
     text-align: left;
     font-size: 1rem;
-    color: #555;
+    color: #050A44;
 }
 
 .contact-info h3 {
-    color: #4CAF50;
+    color: #050A44;
     margin-bottom: 15px;
 }
 
@@ -118,7 +118,7 @@ header p {
 }
 
 .contact-info i {
-    color: #4CAF50;
+    color: #050A44;
     font-size: 1.2rem;
 }
 
@@ -130,7 +130,7 @@ header p {
 }
 
 .additional-contact a {
-    color: #4CAF50;
+    color: #050A44;
     text-decoration: none;
     font-weight: bold;
     display: inline-flex;
@@ -141,7 +141,7 @@ header p {
 }
 
 .additional-contact a:hover {
-    color: purple;
+    color: #0a21c0;
     transition: scale (1.2);
 }
 
